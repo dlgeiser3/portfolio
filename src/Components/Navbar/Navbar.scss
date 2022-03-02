@@ -1,0 +1,22 @@
+.MuiToolbar-root{
+  background-color: rgb(34, 2, 84);
+  height: 50px;
+  min-height: 50px;
+  margin-bottom: 50px;
+};
+
+.MuiAppBar-root{
+  height: 0px
+};
+
+.nav-button{
+  color: white;
+  height: 40px;
+  width: 120px;
+  margin: 0 2px
+};
+
+.nav-button:hover {
+  background-color: #860D9F;
+  font-weight: bold;
+};

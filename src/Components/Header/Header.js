@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.scss'
-import headshot from '../../Assets/headshot-square-edit.png'
-// import stars from '../../Assets/stars.png'
+import Container from '@material-ui/core/Container';
 import times from 'lodash/times'
 
 
@@ -12,8 +11,8 @@ const stars = times(300, (index) => index)
 const Header = () => {
 
   return (
-
-    <div className='header' id='header'>
+    <>
+    <Container className='header' id='header' maxWidth="xl">
       <div className='stars'>
         {stars.map((index) => <div className='star' key={index}></div>)}
       </div>
@@ -51,7 +50,8 @@ const Header = () => {
           <div class="pluto"></div>
         </div>
       </div>
-      </div>
+      </Container>
+      </>
   )
 
 

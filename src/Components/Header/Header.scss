@@ -8,34 +8,23 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 
+
 .header{
   height: 60vh;
   width: 100vw;
   background: rgb(45,30,138);
   background: linear-gradient(150deg, rgba(45,30,138,1) 0%, rgba(78,0,199,1) 50%, rgb(135, 14, 159) 100%);
-  position: absolute;
+  position: relative;
   top: 0;
   overflow: hidden; 
-  z-index: -3; 
-}
-
-.headshot{
-  /* align-self: flex-end; */
-  height: 100%;
-  border-radius: 800px;
-  /* margin-top: -700px; */
-  margin-right: 100vw;
-  opacity: .75;
-  /* margin-left: -130px; */
-  position: absolute;
-  top: 0px;
-  left: -120px;
+  z-index: 1;
+  padding: 0; 
 }
 
 .name{
   color: white;
   font-family: 'Megrim', cursive;
-  font-size: 5em;
+  font-size: 5rem;
   margin-top: 10%;
 
 }
@@ -43,7 +32,7 @@ body{
 .title{
   color: white;
   font-family: 'Megrim', cursive;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .star {
@@ -51,6 +40,7 @@ body{
   border-radius: 100%;
   position: absolute;
   filter: brightness(5);
+  z-index: 2;
 }
 
 @for $i from 1 through $stars {
@@ -94,7 +84,7 @@ body{
 
 // PLANETS
 .planets {
-  margin: -3vh 0 0 -360px;
+  margin: -70px 0 0 -390px;
   width: 768px;
   transform: scale(1.3);
   z-index: -1;
