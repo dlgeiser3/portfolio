@@ -3,8 +3,9 @@ import './App.css';
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
-import Experience from './Components/Experience/Experience';
 import Skills from './Components/Skills/Skills'
+import Experience from './Components/Experience/Experience';
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -14,11 +15,7 @@ function App() {
       <About/>
       <Skills/>
       <Experience />
-      <Experience />
-      <Experience />
-      <Experience />
-      <Experience />
-      <Experience />
+      <Contact />
     </div>
   );
 }

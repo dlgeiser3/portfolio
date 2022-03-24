@@ -1,0 +1,55 @@
+.contact{
+  color: white;
+  margin: 50px 0 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.icon{
+  height: 90px;
+}
+
+.icon-resume{
+  height: 80px;
+}
+
+.icon-container{
+  margin: 50px 0 0
+}
+
+.email-input{
+  width: 90%;
+  height: 30px;
+  color: white;
+  background-color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 1px white;
+  border-radius: 2px; 
+}
+
+.message-text{
+  height: 90px;
+  width: 90%;
+  margin: 10px 0;
+  color: white;
+  background-color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 1px white;
+  border-radius: 2px; 
+}
+.submit-button{
+  background-color: #860D9F;
+  color: white;
+  border: none;
+  width: 20%;
+  height: 30px;
+  border-radius: 2px;
+  font-size: medium;
+}
+
+.submit-button:hover{
+  font-weight: bold;
+  background-color: aqua;
+}
+
+
+// #710b85

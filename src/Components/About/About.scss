@@ -1,16 +1,11 @@
-// background: rgb(45,30,138);
-// background: linear-gradient(150deg, rgba(45,30,138,1) 0%, rgba(78,0,199,1) 50%, rgb(135, 14, 159) 100%);
-
-
 .about{
   color: white;
   flex-grow: 1;
-  margin: 80px 2% 0
+  margin: 80px 3% 0
 }
 
 .profile-pic {
   height: 32vh;
   border-radius: 100%;
   box-shadow: 5px 3px 0px 10px rgba(135,14,159,.6), 12px 8px 0 10px rgba(45,30,138,.6);
-  // box-shadow: #860D9F;
 }
